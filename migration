@@ -1,0 +1,6 @@
+create table user (
+    id int auto_increment primary key,
+    name varchar(30) not null,
+    passwd_hash varchar(80) not null,
+    is_deleted tinyint(1) not null default 0
+);
