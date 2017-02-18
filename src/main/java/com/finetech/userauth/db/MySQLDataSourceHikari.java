@@ -20,7 +20,7 @@ public class MySQLDataSourceHikari {
             config.setDriverClassName("com.mysql.jdbc.Driver");
             config.setJdbcUrl("jdbc:mysql://localhost:3306/user_auth");
             config.setUsername("root");
-            config.setPassword("scary_bear");
+            config.setPassword("root");
             config.setMinimumIdle(2);
             config.setMaximumPoolSize(10);
             config.setMaxLifetime(20000);

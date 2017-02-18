@@ -1,3 +1,7 @@
+create database if not exists user_auth;
+
+use user_auth;
+
 create table user (
     id int auto_increment primary key,
     name varchar(30) not null,
